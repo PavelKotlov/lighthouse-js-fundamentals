@@ -12,8 +12,8 @@ for (let i = 0; i <ingredients.length; i++) {
 }
 // Write any loop (while or for) that prints out the contents of ingredients backwards:
 i = 0;
+ingredients.reverse()
 while (i < ingredients.length) {
-  var newWord = ingredients[i].split("").reverse().join("");
-  console.log(newWord);
+  console.log(ingredients[i]);
   i++;
 }
